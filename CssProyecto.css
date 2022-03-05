@@ -1,0 +1,94 @@
+head {
+    text-align: center;
+    }
+    .text-menu {
+            list-style:none;
+            position: relative;
+            padding: 5% 5% 5% 5%;
+        }
+    .image-menu {
+         position: relative;
+         width: 100%; /* for IE 6 */
+         background-image: url("imagenes/1.jpg");
+         background-size: cover;
+    }
+    .image-menuviajes {
+        position: relative;
+        width: 100%; /* for IE 6 */
+        background-image: url("imagenes/paisaje.jpg");
+        background-size: cover;
+   }
+   .image-menu3 {
+    position: relative;
+    width: 100%; /* for IE 6 */
+    background-image: url("imagenes/Paisaje2.jpg");
+    background-size: cover;
+}
+.image-menu4 {
+    position: relative;
+    width: 100%; /* for IE 6 */
+    background-image: url("imagenes/paisaje3.jpg");
+    background-size: cover;
+}
+    body {
+    }
+    
+    #lista2 h1 {
+        font: 45px/30px monospace;
+        text-align: left;
+    }
+    
+    #lista2 h1 {
+        font: 45px/30px monospace;
+        text-align: left;
+    }
+    
+    #lista2 a {
+        color: black;
+        text-decoration:none;	
+    }
+    
+    
+    #lista1 h1 {
+        display:inline;
+        font: 45px/30px monospace;
+        text-align: right;
+    }
+    
+    #EspSlider h2 {
+        font: 50px monospace;
+        text-align: center;
+        color:rgb(179, 24, 24); 
+    }
+    
+    
+    #lista1 li {
+        display: block;
+        float:right;
+        font: bold 15px/25px Helvetica;
+        width:10%;
+        padding:5px 8px;
+    }
+    
+    #lista1 a {
+        color:rgb(0, 255, 21);
+        text-decoration:none;	
+    }
+    
+    a:hover {
+        background-color:#ee7676;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    #tablimg th,td,tr {
+        font: 30px monospace;
+        text-align:center;
+        text-decoration:none;
+    }
+    
+    #tablimg a{
+        text-decoration:none;
+    }
+    

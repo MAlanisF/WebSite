@@ -1,0 +1,44 @@
+body {
+	background-color:rgb(55, 66, 55);
+}
+
+#cabecera {
+	border-radius: 20px;
+	border-color: black;
+  	background-color: #879C66;
+  	padding: 20px;
+  	margin: 20px;
+  	overflow: visible;
+  	font-family: Arial, Helvetica, sans-serif;
+  	text-align: center;
+  	font-style: ;
+}
+
+div{
+	border-radius: 20px;
+	border-color: black;
+  	background-color: rgb(174, 202, 122);
+  	padding: 20px;
+  	margin: 20px;
+  	overflow: visible;
+  	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	padding: 2%;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+}

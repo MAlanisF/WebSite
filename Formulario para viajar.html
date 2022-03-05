@@ -1,0 +1,136 @@
+<!doctype html> 
+<html lang=es>
+<head>
+	<title>Formularo Para Viajar </title>
+  <link rel="shortcut icon" href="avion.ico">
+  <link rel="stylesheet" href="CssProyecto.css" TYPE="text/css" MEDIA=screen>
+  <link rel="stylesheet" href="Estilos pagina.css" TYPE="text/css" MEDIA=screen>
+  <div class="image-menu3">
+		<ul class="text-menu">
+			<ul id="lista1">
+				<h1><a href="Proyecto.html"> <FONT COLOR="white">Viajes Y Destino</a></FONT></h1>		
+					 <li></span><a href="Registro de usuario.html">Registro</a></li>
+					 <li></span><a href="Formulario para viajar.html">Formulario</a></li>
+					 <li></span><a href="Paises.html">Paises</a></li>
+					 <li></span><a href="Viajes.html">Viajes</a></li>
+			</ul>
+		</div>
+<style>
+        input[type=reset]{
+          background-color: Black;
+          border: 3px solid blue;
+          color: white;
+          padding: 15px;
+          text-decoration: none;
+          margin: 8px 0;
+        cursor: pointer;
+        }
+        input[type=submit]{
+  background-color: Black;
+  border: 3px solid blue;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  margin: 8px 0;
+  cursor: pointer;
+}
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 3px solid blue;
+  border-radius: 17px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  resize: none;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 15px ;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid blue;
+  border-radius: 17px;
+  box-sizing: border-box;
+  }
+  select{
+            width: 50%;
+            padding: 15px;
+            border: 3px solid blue;
+            border-radius: 17px;
+            background-color: #f1f1f1;
+        }
+</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta charset="ISO-8859-1">
+	<meta charset="UTF-8">
+
+
+
+</head>
+
+<body background="#2E86C1">
+    <center>
+    <form action="Proyecto.html" target="_blank">
+        <label for="fname"><h2>Nombres</h2></label><br>
+		<input type="text" id="fname" name="fname"><br><br>
+		<label for="lname"><h2>Apellidos</h2></label><br>
+		<input type="text" id="lname" name="lname">
+
+        <h2>De los paises disponibles, ¿a cual le gustaria viajar?</h2>
+        <select id="equipo" name="equipo">
+        <option value="Fr">Paris</option>
+        <option value="Ny">New York</option>
+        <option value="LV">Las vegas</option>
+        <option value="It">Roma</option>
+        <option value="Ch">Chicago</option>
+        <option value="Es">España</option>
+        <option value="Ger">Alemania</option>
+        <option value="Ing">Inglaterra</option>
+        <option value="LA">Los Angeles</option>
+        <option value="EAU">Dubai</option>
+        <option value="Col">Colombia</option>
+        <option value="Chi">China</option>
+        </select><br>
+
+        <h2>¿Que nivel de vacunación tiene?</h2>
+        <input type="radio" id="1" name="fav_language" value="HTML">
+        <label for="1">1°era dosis</label><br>
+      
+        <input type="radio" id="2" name="fav_language" value="CSS">
+        <label for="2">2°da dosis</label><br>
+      
+        <input type="radio" id="3" name="fav_language" value="JavaScript">
+        <label for="3">Refuerzo</label><br>
+  
+        <p>¿Por que nos elijio como su opción?</p>
+	<input type="checkbox" id="1" name="1" value="Pop">
+	<label for="1">Calidad </label><br>
+	
+	<input type="checkbox" id="2" name="2" value="rap">
+	<label for="2"> Buen precio</label><br>
+	
+	<input type="checkbox" id="3" name="3" value="trap">
+	<label for="3"> Atencion al cliente</label><br>
+
+    <input type="checkbox" id="4" name="4" value="Reggeton">
+	<label for="4">Poularidad</label><br>
+
+    <input type="checkbox" id="5" name="5" value="Corridos">
+	<label for="5">mejor servicio</label><br>
+
+    <input type="checkbox" id="6" name="6" value="Villeras">
+	<label for="6">Fue al azar</label><br>
+
+      <p>Explique el motivo de su viaje</p>
+      <textarea name="message" rows="20" cols="40"></textarea><br><br>
+       
+        <p>
+          <input type="reset" value="Reiniciar el formulario">
+          <input type="submit" value="Enviar mensaje">
+        </p>
+       </form>
+ </center>
+</body>
+</html>
